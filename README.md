@@ -12,7 +12,7 @@
 ```bash
 # Клонировать репозиторий
 git clone https://github.com/MargaritaUlko/review_test_task.git
-cd review_test_task
+cd test
 
 # Переключиться на нужную ветку:
 
