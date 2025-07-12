@@ -5,14 +5,14 @@
 ## Ветки репозитория
 
 1. `main` - базовая версия с обычным запуском
-2. `dockerfile-feature` - версия с Docker-контейнеризацией
+2. `docker-feature` - версия с Docker-контейнеризацией
 
 ## Как переключаться между ветками
 
 ```bash
 # Клонировать репозиторий
 git clone https://github.com/MargaritaUlko/review_test_task.git
-cd test
+cd review_test_task
 
 # Переключиться на нужную ветку:
 
@@ -20,7 +20,7 @@ cd test
 git checkout main
 
 # Для Docker-версии:
-git checkout dockerfile-feature
+git checkout docker-feature
 
 ##Запуск в ветке main (обычный)
 pip install -r requirements.txt
